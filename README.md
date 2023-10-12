@@ -21,4 +21,4 @@ The project uses the following technologies:
 1. **Clone the Repository**: Use Git to clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/revent-scheduler.git
+   git clone (https://github.com/rajaniamin/ReventScheduler.git)https://github.com/rajaniamin/ReventScheduler.git
