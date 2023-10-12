@@ -22,7 +22,7 @@ Follow these steps to set up the To-Do app locally:
 - Use Git to clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/your-todo-app.git
+   git clone https://github.com/rajaniamin/ReventScheduler.git
 
 ## API Endpoints
 
