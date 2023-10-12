@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.revent.model.Task;
 import com.revent.service.TaskService;
 
+import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 
 @RestController
@@ -52,7 +53,7 @@ public class TaskController {
 		Task updateTask = taskService.updateTask(task);
 		return new ResponseEntity<>(updateTask, HttpStatus.OK);
 	}
-
+	@Transactional
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<Task> deleteTask(@Valid @PathVariable("id") Long id) {
 		taskService.deleteTask(id);
